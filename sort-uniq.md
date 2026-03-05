@@ -1,9 +1,9 @@
 # sort and uniq Command (Linux)
 
-The `sort` command is used to **sort lines of text files** in alphabetical or numerical order.  
-The `uniq` command is used to **remove duplicate lines** from a sorted file.
+The `sort` command is used to sort lines of text files in alphabetical or numerical order.  
+The `uniq` command is used to remove duplicate lines from a file.
 
-Both commands are commonly used together for **text processing in Linux**.
+Both commands are commonly used together in Linux text processing.
 
 ---
 
@@ -22,7 +22,7 @@ uniq [options] file
 sort --version
 ```
 
-Displays the installed version of the `sort` command. :contentReference[oaicite:0]{index=0}
+Displays the installed version of the `sort` command.
 
 ---
 
@@ -32,7 +32,7 @@ Displays the installed version of the `sort` command. :contentReference[oaicite:
 sort --help
 ```
 
-Shows available options and usage of the `sort` command. :contentReference[oaicite:1]{index=1}
+Shows all available options and usage of the `sort` command.
 
 ---
 
@@ -42,9 +42,9 @@ Shows available options and usage of the `sort` command. :contentReference[oaici
 sort file1
 ```
 
-This command sorts the contents of `file1` in **alphabetical order**. :contentReference[oaicite:2]{index=2}
+This command sorts the contents of `file1` in alphabetical order.
 
-Example output
+Example output:
 
 ```
 Aditya Singh
@@ -62,7 +62,7 @@ Kabir Mehta
 sort -r file1
 ```
 
-Sorts the file in **reverse alphabetical order**. :contentReference[oaicite:3]{index=3}
+Sorts the file in reverse alphabetical order.
 
 ---
 
@@ -72,7 +72,7 @@ Sorts the file in **reverse alphabetical order**. :contentReference[oaicite:3]{i
 sort -k2 file1
 ```
 
-Sorts the file based on the **second field (column)**. :contentReference[oaicite:4]{index=4}
+Sorts the file based on the second column (field).
 
 ---
 
@@ -82,8 +82,9 @@ Sorts the file based on the **second field (column)**. :contentReference[oaicite
 uniq file1
 ```
 
-Removes **duplicate lines** from a file.  
-The file should be sorted before using `uniq`. :contentReference[oaicite:5]{index=5}
+Removes duplicate lines from a file.
+
+Note: The file should be sorted before using `uniq`.
 
 ---
 
@@ -93,7 +94,7 @@ The file should be sorted before using `uniq`. :contentReference[oaicite:5]{inde
 sort file1 | uniq
 ```
 
-This command first sorts the file and then removes duplicate lines. :contentReference[oaicite:6]{index=6}
+This command sorts the file first and then removes duplicate lines.
 
 ---
 
@@ -103,9 +104,9 @@ This command first sorts the file and then removes duplicate lines. :contentRefe
 sort file1 | uniq -c
 ```
 
-Displays each line with the **number of times it appears**. :contentReference[oaicite:7]{index=7}
+Displays the number of times each line appears.
 
-Example output
+Example output:
 
 ```
 1 Aditya Singh
@@ -115,15 +116,15 @@ Example output
 
 ---
 
-# 9. Display Only Repeated Lines
+# 9. Show Only Duplicate Lines
 
 ```
 sort file1 | uniq -d
 ```
 
-Shows only the **duplicate lines** in the file. :contentReference[oaicite:8]{index=8}
+Displays only the repeated lines.
 
-Example output
+Example output:
 
 ```
 Priya Patel
@@ -137,8 +138,8 @@ The `sort` and `uniq` commands are useful for:
 
 - Sorting text data
 - Removing duplicate lines
-- Counting repeated values
-- Data cleaning and analysis
+- Counting repeated entries
+- Data processing and log analysis
 
 These commands are often used with:
 
@@ -151,4 +152,4 @@ These commands are often used with:
 
 # RHCSA Note
 
-`sort` and `uniq` are important commands for **text processing, log analysis, and data filtering in Linux system administration**.
+`sort` and `uniq` are important commands for text processing and data filtering in Linux system administration.
