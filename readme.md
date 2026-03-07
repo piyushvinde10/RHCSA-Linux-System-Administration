@@ -2,42 +2,29 @@
 
 ![Linux](https://img.shields.io/badge/Linux-RHCSA-blue)
 ![Status](https://img.shields.io/badge/Status-Learning-green)
-![Repo Size](https://img.shields.io/github/repo-size/piyushvinde10/RHCSA-Linux-System-Administration)
+![Progress](https://img.shields.io/badge/RHCSA%20Progress-Day%203-orange)
 
-This repository documents my learning journey while preparing for the **Red Hat Certified System Administrator (RHCSA)** certification.
+This repository documents my **hands-on learning journey** while preparing for the **Red Hat Certified System Administrator (RHCSA)** certification.
 
-The goal of this repository is to practice and document important **Linux commands, system administration tasks, and concepts** required for RHCSA.
-
----
-
-# About RHCSA
-
-The **Red Hat Certified System Administrator (RHCSA)** certification validates skills required for Linux system administration such as:
-
-- File and directory management
-- Text processing
-- User and group management
-- File permissions
-- Package management
-- System services
-- Storage management
-- Networking basics
+The goal of this repository is to practice and document important **Linux commands and system administration tasks**.
 
 ---
 
-# Learning Progress
+# RHCSA Learning Progress
 
-| Day | Topics |
-|----|------|
-| Day 1 | cut, awk, grep, egrep, sort, uniq |
-
-More topics will be added as I continue my RHCSA preparation.
+| Day | Topic | Status |
+|----|------|------|
+| Day 1 | Text Processing Commands | ✅ Completed |
+| Day 2 | File Utilities & Compression | ✅ Completed |
+| Day 3 | Linux Basics & Command Differences | ⏳ In Progress |
 
 ---
 
-# Commands Covered
+# Command Index
 
 ## Text Processing
+
+Commands used for processing and analyzing text files.
 
 - `cut`
 - `awk`
@@ -45,6 +32,73 @@ More topics will be added as I continue my RHCSA preparation.
 - `egrep`
 - `sort`
 - `uniq`
+- `wc`
+
+📂 Location
+
+```
+text-processing/
+```
+
+---
+
+## File Comparison
+
+Commands used to compare files.
+
+- `diff`
+- `cmp`
+
+📂 Location
+
+```
+file-comparison/
+```
+
+---
+
+## File Management
+
+Commands used for managing files.
+
+- `truncate`
+- `cat` (combine files)
+- `split` (split files)
+
+📂 Location
+
+```
+file-management/
+```
+
+---
+
+## File Compression
+
+Commands used to compress and extract files.
+
+- `tar`
+- `gzip`
+- `zip`
+- `unzip`
+
+📂 Location
+
+```
+compression/
+```
+
+---
+
+## Windows vs Linux Commands
+
+Comparison between Windows command prompt and Linux terminal commands.
+
+📂 Location
+
+```
+command-basics/
+```
 
 ---
 
@@ -53,39 +107,45 @@ More topics will be added as I continue my RHCSA preparation.
 ```
 RHCSA-Linux-System-Administration
 │
-├── README.md
-├── cut.md
-├── awk.md
-├── grep.md
-└── sort-uniq.md
+├── command-basics
+│   └── linux-vs-windows-commands.md
+│
+├── file-comparison
+│   └── compare-files.md
+│
+├── file-management
+│   ├── combine-split-files.md
+│   └── truncate.md
+│
+├── compression
+│   └── compress-uncompress.md
+│
+├── text-processing
+│   ├── awk.md
+│   ├── cut.md
+│   ├── grep.md
+│   ├── sort-uniq.md
+│   └── wc.md
+│
+└── README.md
 ```
-
-Each file contains:
-
-- Command explanation
-- Syntax
-- Practical examples
-- Usage in Linux administration
 
 ---
 
 # Tools Used
 
 - Linux Terminal
-- Bash Shell
+- Bash
 - Git
 - GitHub
 
 ---
 
-# Goal of This Repository
+# Learning Goal
 
-The purpose of this repository is to:
-
-- Build strong **Linux administration skills**
-- Prepare for the **RHCSA certification**
-- Practice Linux commands daily
-- Track my learning progress
+- Build strong **Linux command-line skills**
+- Prepare for **RHCSA certification**
+- Document daily Linux learning
 
 ---
 
@@ -98,4 +158,4 @@ https://github.com/piyushvinde10
 
 ---
 
-⭐ This repository is part of my **RHCSA learning journey**.
+⭐ This repository tracks my **RHCSA preparation journey**.
