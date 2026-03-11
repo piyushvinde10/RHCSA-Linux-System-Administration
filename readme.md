@@ -2,7 +2,7 @@
 
 ![Linux](https://img.shields.io/badge/Linux-RHCSA-blue)
 ![Status](https://img.shields.io/badge/Status-Learning-green)
-![Progress](https://img.shields.io/badge/RHCSA%20Progress-Day%203-orange)
+![Progress](https://img.shields.io/badge/RHCSA%20Progress-Day%204-orange)
 
 This repository documents my **hands-on learning journey** while preparing for the **Red Hat Certified System Administrator (RHCSA)** certification.
 
@@ -16,7 +16,8 @@ The goal of this repository is to practice and document important **Linux comman
 |----|------|------|
 | Day 1 | Text Processing Commands | ✅ Completed |
 | Day 2 | File Utilities & Compression | ✅ Completed |
-| Day 3 | Linux Basics & Command Differences | ⏳ In Progress |
+| Day 3 | Linux Basics & Command Differences | ✅ Completed |
+| Day 4 | Text Processing & File Handling Labs | ✅ Completed |
 
 ---
 
@@ -102,6 +103,21 @@ command-basics/
 
 ---
 
+## Linux Labs
+
+Hands-on labs performed to practice Linux command pipelines and workflows.
+
+- Text Filtering and Search Workflow
+- File Handling and Processing Pipeline
+
+📂 Location
+
+```
+labs/
+```
+
+---
+
 # Repository Structure
 
 ```
@@ -126,6 +142,10 @@ RHCSA-Linux-System-Administration
 │   ├── grep.md
 │   ├── sort-uniq.md
 │   └── wc.md
+│
+├── labs
+│   ├── text-filtering-search-workflow.md
+│   └── file-handling-processing-pipeline.md
 │
 └── README.md
 ```
