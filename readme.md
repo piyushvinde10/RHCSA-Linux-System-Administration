@@ -2,15 +2,31 @@
 
 ![Linux](https://img.shields.io/badge/Linux-RHCSA-blue)
 ![Status](https://img.shields.io/badge/Status-Learning-green)
-![Progress](https://img.shields.io/badge/RHCSA%20Progress-Day%205-orange)
+![Progress](https://img.shields.io/badge/Section%201-Linux%20Fundamentals-orange)
 
 This repository documents my **hands-on learning journey** while preparing for the **Red Hat Certified System Administrator (RHCSA)** certification.
 
-The goal of this repository is to practice and document important **Linux commands and system administration tasks**.
+Currently, this repository contains **Section 1: Linux Fundamentals**.
 
 ---
 
-# RHCSA Learning Progress
+# Section 1: Linux Fundamentals
+
+This section covers the core Linux commands and concepts required to understand how Linux works.
+
+Topics covered include:
+
+- Linux command basics
+- Text processing commands
+- File comparison
+- File compression
+- File management
+- Linux labs
+- Linux exercises
+
+---
+
+# Learning Progress (Section 1)
 
 | Day | Topic | Status |
 |----|------|------|
@@ -22,146 +38,39 @@ The goal of this repository is to practice and document important **Linux comman
 
 ---
 
-# Command Index
-
-## Text Processing
-
-Commands used for processing and analyzing text files.
-
-- `cut`
-- `awk`
-- `grep`
-- `egrep`
-- `sort`
-- `uniq`
-- `wc`
-
-📂 Location
-
-```
-text-processing/
-```
-
----
-
-## File Comparison
-
-Commands used to compare files.
-
-- `diff`
-- `cmp`
-
-📂 Location
-
-```
-file-comparison/
-```
-
----
-
-## File Management
-
-Commands used for managing files.
-
-- `truncate`
-- `cat` (combine files)
-- `split` (split files)
-
-📂 Location
-
-```
-file-management/
-```
-
----
-
-## File Compression
-
-Commands used to compress and extract files.
-
-- `tar`
-- `gzip`
-- `zip`
-- `unzip`
-
-📂 Location
-
-```
-compression/
-```
-
----
-
-## Windows vs Linux Commands
-
-Comparison between Windows command prompt and Linux terminal commands.
-
-📂 Location
-
-```
-command-basics/
-```
-
----
-
-## Linux Labs
-
-Hands-on labs performed to practice Linux command pipelines and workflows.
-
-- Text Filtering and Search Workflow
-- File Handling and Processing Pipeline
-
-📂 Location
-
-```
-labs/
-```
-
----
-
-## Linux Exercises
-
-Practice exercises covering Linux command syntax, permissions, file handling, and text processing.
-
-📂 Location
-
-```
-exercises/
-```
-
----
-
-# Repository Structure
+# Section 1 Repository Structure
 
 ```
 RHCSA-Linux-System-Administration
 │
-├── command-basics
-│   └── linux-vs-windows-commands.md
-│
-├── file-comparison
-│   └── compare-files.md
-│
-├── file-management
-│   ├── combine-split-files.md
-│   └── truncate.md
-│
-├── compression
-│   └── compress-uncompress.md
-│
-├── text-processing
-│   ├── awk.md
-│   ├── cut.md
-│   ├── grep.md
-│   ├── sort-uniq.md
-│   └── wc.md
-│
-├── labs
-│   ├── text-filtering-search-workflow.md
-│   └── file-handling-processing-pipeline.md
-│
-├── exercises
-│   └── linux-command-practice.md
+├── section-1-linux-fundamentals
+│   │
+│   ├── command-basics
+│   │   └── linux-vs-windows-commands.md
+│   │
+│   ├── text-processing
+│   │   ├── awk.md
+│   │   ├── cut.md
+│   │   ├── grep.md
+│   │   ├── sort-uniq.md
+│   │   └── wc.md
+│   │
+│   ├── file-comparison
+│   │   └── compare-files.md
+│   │
+│   ├── file-management
+│   │   ├── combine-split-files.md
+│   │   └── truncate.md
+│   │
+│   ├── compression
+│   │   └── compress-uncompress.md
+│   │
+│   ├── labs
+│   │   ├── text-filtering-search-workflow.md
+│   │   └── file-handling-processing-pipeline.md
+│   │
+│   └── exercises
+│       └── linux-command-practice.md
 │
 └── README.md
 ```
@@ -194,4 +103,4 @@ https://github.com/piyushvinde10
 
 ---
 
-⭐ This repository tracks my **RHCSA preparation journey**.
+⭐ This repository tracks my **RHCSA learning journey**.
