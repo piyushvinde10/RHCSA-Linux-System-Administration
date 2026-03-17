@@ -2,19 +2,17 @@
 
 ![Linux](https://img.shields.io/badge/Linux-RHCSA-blue)
 ![Status](https://img.shields.io/badge/Status-Learning-green)
-![Progress](https://img.shields.io/badge/Section%201-Linux%20Fundamentals-orange)
+![Progress](https://img.shields.io/badge/RHCSA%20Progress-Day%206-orange)
 
 This repository documents my **hands-on learning journey** while preparing for the **Red Hat Certified System Administrator (RHCSA)** certification.
-
-Currently, this repository contains **Section 1: Linux Fundamentals**.
 
 ---
 
 # Section 1: Linux Fundamentals
 
-This section covers the core Linux commands and concepts required to understand how Linux works.
+This section covers the core Linux commands and concepts.
 
-Topics covered include:
+## Topics Covered
 
 - Linux command basics
 - Text processing commands
@@ -24,53 +22,67 @@ Topics covered include:
 - Linux labs
 - Linux exercises
 
+📂 Location
+
+```
+section-1-linux-fundamentals/
+```
+
 ---
 
-# Learning Progress (Section 1)
+# Section 2: System Administration
+
+This section covers advanced Linux system administration topics.
+
+## Topics Covered
+
+- Linux file editor (`vi` / `vim`)
+- `sed` command
+- User account management
+
+📂 Location
+
+```
+section-2-system-administration/
+```
+
+---
+
+# Learning Progress
 
 | Day | Topic | Status |
 |----|------|------|
 | Day 1 | Text Processing Commands | ✅ Completed |
 | Day 2 | File Utilities & Compression | ✅ Completed |
 | Day 3 | Linux Basics & Command Differences | ✅ Completed |
-| Day 4 | Linux Labs (Text Filtering & File Processing Pipeline) | ✅ Completed |
+| Day 4 | Linux Labs | ✅ Completed |
 | Day 5 | Linux Command Practice Exercise | ✅ Completed |
+| Day 6 | File Editor, sed, User Management | ✅ Completed |
 
 ---
 
-# Section 1 Repository Structure
+# Repository Structure
 
 ```
 RHCSA-Linux-System-Administration
 │
 ├── section-1-linux-fundamentals
-│   │
 │   ├── command-basics
-│   │   └── linux-vs-windows-commands.md
-│   │
-│   ├── text-processing
-│   │   ├── awk.md
-│   │   ├── cut.md
-│   │   ├── grep.md
-│   │   ├── sort-uniq.md
-│   │   └── wc.md
-│   │
+│   ├── exercises
 │   ├── file-comparison
-│   │   └── compare-files.md
-│   │
+│   ├── file-compression
 │   ├── file-management
-│   │   ├── combine-split-files.md
-│   │   └── truncate.md
-│   │
-│   ├── compression
-│   │   └── compress-uncompress.md
-│   │
 │   ├── labs
-│   │   ├── text-filtering-search-workflow.md
-│   │   └── file-handling-processing-pipeline.md
-│   │
-│   └── exercises
-│       └── linux-command-practice.md
+│   ├── text-processing
+│   └── file-editor
+│
+├── section-2-system-administration
+│   ├── file-editor
+│   │   └── vi-editor.md
+│   ├── text-processing
+│   │   └── sed.md
+│   └── user-management
+│       └── user-management.md
 │
 └── README.md
 ```
@@ -89,8 +101,8 @@ RHCSA-Linux-System-Administration
 # Learning Goal
 
 - Build strong **Linux command-line skills**
+- Master **Linux system administration**
 - Prepare for **RHCSA certification**
-- Document daily Linux learning
 
 ---
 
@@ -103,4 +115,4 @@ https://github.com/piyushvinde10
 
 ---
 
-⭐ This repository tracks my **RHCSA learning journey**.
+⭐ This repository tracks my **RHCSA learning journey (Section-wise)**.
