@@ -1,0 +1,195 @@
+# Special Permissions in Linux (setuid, setgid, sticky bit)
+
+Linux provides special permissions to enhance security and control access.
+
+These include:
+
+- setuid (SUID)
+- setgid (SGID)
+- sticky bit
+
+---
+
+# 1. setuid (SUID)
+
+When setuid is applied to a file:
+
+- File runs with **owner's permission**
+- Not the user's permission
+
+## Syntax
+
+```
+chmod u+s filename
+```
+
+## Numeric Value
+
+```
+4
+```
+
+---
+
+# 2. setgid (SGID)
+
+When setgid is applied:
+
+- Files run with **group permissions**
+- In directories → new files inherit group ownership
+
+## Syntax
+
+```
+chmod g+s filename
+```
+
+## Numeric Value
+
+```
+2
+```
+
+---
+
+# 3. Sticky Bit
+
+Used mainly on directories.
+
+- Only file owner can delete their files
+- Even if directory has full permissions
+
+## Syntax
+
+```
+chmod +t directory
+```
+
+## Numeric Value
+
+```
+1
+```
+
+---
+
+# Example Lab (Step-by-Step)
+
+## Step 1: Create Directory as Root
+
+```
+sudo -i
+mkdir /allinone
+chmod 777 /allinone
+```
+
+---
+
+## Step 2: Create Directory as User
+
+```
+cd /allinone
+mkdir piyush_dir
+chmod 777 piyush_dir
+```
+
+---
+
+## Step 3: Create Files
+
+```
+cd piyush_dir
+touch a b c
+```
+
+---
+
+## Step 4: Another User Deletes Directory
+
+Login as another user:
+
+```
+su - spiderman
+cd /allinone
+rm -rf piyush_dir
+```
+
+Directory gets deleted (no restriction).
+
+---
+
+## Step 5: Apply Sticky Bit
+
+Login as root:
+
+```
+chmod +t /allinone
+```
+
+Check permission:
+
+```
+ls -ld /allinone
+```
+
+Output:
+
+```
+drwxrwxrwt
+```
+
+`t` indicates sticky bit.
+
+---
+
+## Step 6: Test Again
+
+Create directory again:
+
+```
+mkdir piyush_dir
+chmod 777 piyush_dir
+touch a b c
+```
+
+Now login as another user:
+
+```
+su - spiderman
+rm -rf piyush_dir
+```
+
+❌ Error:
+
+```
+Operation not permitted
+```
+
+---
+
+# Summary
+
+| Permission | Symbol | Value | Use |
+|----------|--------|------|-----|
+| setuid | s | 4 | Run as owner |
+| setgid | s | 2 | Run as group |
+| sticky bit | t | 1 | Protect files in directory |
+
+---
+
+# Important Note
+
+- Sticky bit is commonly used in `/tmp` directory
+- Prevents users from deleting others' files
+
+---
+
+# RHCSA Note
+
+Special permissions are very important for:
+
+- Security control
+- Multi-user systems
+- File protection
+
+They are frequently asked in **RHCSA exams and interviews**. :contentReference[oaicite:0]{index=0}
