@@ -2,7 +2,7 @@
 
 ![Linux](https://img.shields.io/badge/Linux-RHCSA-blue)
 ![Status](https://img.shields.io/badge/Status-Learning-green)
-![Progress](https://img.shields.io/badge/RHCSA%20Progress-Day%206-orange)
+![Progress](https://img.shields.io/badge/RHCSA%20Progress-Day%207-orange)
 
 This repository documents my **hands-on learning journey** while preparing for the **Red Hat Certified System Administrator (RHCSA)** certification.
 
@@ -39,6 +39,15 @@ This section covers advanced Linux system administration topics.
 - Linux file editor (`vi` / `vim`)
 - `sed` command
 - User account management
+- Password aging
+- Sudo & privilege management
+- User monitoring & communication
+- File permissions & special permissions
+- Directory services & authentication
+- System utility commands
+- Process management (`ps`, `top`, `kill`, signals)
+- Service management (`systemctl`)
+- Job scheduling (`cron`, `at`)
 
 📂 Location
 
@@ -58,6 +67,7 @@ section-2-system-administration/
 | Day 4 | Linux Labs | ✅ Completed |
 | Day 5 | Linux Command Practice Exercise | ✅ Completed |
 | Day 6 | File Editor, sed, User Management | ✅ Completed |
+| Day 7 | Process Management, Services, Scheduling | ✅ Completed |
 
 ---
 
@@ -78,11 +88,12 @@ RHCSA-Linux-System-Administration
 │
 ├── section-2-system-administration
 │   ├── file-editor
-│   │   └── vi-editor.md
 │   ├── text-processing
-│   │   └── sed.md
-│   └── user-management
-│       └── user-management.md
+│   ├── user-management
+│   ├── file-permissions
+│   ├── process-management
+│   ├── service-management
+│   └── system-monitoring
 │
 └── README.md
 ```
