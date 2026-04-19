@@ -2,7 +2,7 @@
 
 ![Linux](https://img.shields.io/badge/Linux-RHCSA-blue)
 ![Status](https://img.shields.io/badge/Status-Learning-green)
-![Progress](https://img.shields.io/badge/RHCSA%20Progress-Day%207-orange)
+![Progress](https://img.shields.io/badge/RHCSA%20Progress-Day%208-orange)
 
 This repository documents my **hands-on learning journey** while preparing for the **Red Hat Certified System Administrator (RHCSA)** certification.
 
@@ -24,9 +24,6 @@ This section covers the core Linux commands and concepts.
 
 📂 Location
 
-```
-section-1-linux-fundamentals/
-```
 
 ---
 
@@ -48,12 +45,18 @@ This section covers advanced Linux system administration topics.
 - Process management (`ps`, `top`, `kill`, signals)
 - Service management (`systemctl`)
 - Job scheduling (`cron`, `at`)
+- System maintenance commands (`shutdown`, `reboot`, `halt`)
+- Log monitoring
+- System information (`uname`, `dmidecode`)
+- Hostname configuration
+- Environment variables
+- Terminal commands & control keys
+- tmux (terminal multiplexer)
+- Practice labs (real-world tasks)
 
 📂 Location
 
-```
-section-2-system-administration/
-```
+
 
 ---
 
@@ -68,35 +71,8 @@ section-2-system-administration/
 | Day 5 | Linux Command Practice Exercise | ✅ Completed |
 | Day 6 | File Editor, sed, User Management | ✅ Completed |
 | Day 7 | Process Management, Services, Scheduling | ✅ Completed |
+| Day 8 | System Configuration, Monitoring, tmux & Practice Lab | ✅ Completed |
 
----
-
-# Repository Structure
-
-```
-RHCSA-Linux-System-Administration
-│
-├── section-1-linux-fundamentals
-│   ├── command-basics
-│   ├── exercises
-│   ├── file-comparison
-│   ├── file-compression
-│   ├── file-management
-│   ├── labs
-│   ├── text-processing
-│   └── file-editor
-│
-├── section-2-system-administration
-│   ├── file-editor
-│   ├── text-processing
-│   ├── user-management
-│   ├── file-permissions
-│   ├── process-management
-│   ├── service-management
-│   └── system-monitoring
-│
-└── README.md
-```
 
 ---
 
