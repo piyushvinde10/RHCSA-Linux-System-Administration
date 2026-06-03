@@ -2,7 +2,7 @@
 
 ![Linux](https://img.shields.io/badge/Linux-RHCSA-blue)
 ![Status](https://img.shields.io/badge/Status-Learning-green)
-![Progress](https://img.shields.io/badge/RHCSA%20Progress-Day%208-orange)
+![Progress](https://img.shields.io/badge/RHCSA%20Progress-Day%209-orange)
 
 This repository documents my **hands-on learning journey** while preparing for the **Red Hat Certified System Administrator (RHCSA)** certification.
 
@@ -24,6 +24,7 @@ This section covers the core Linux commands and concepts.
 
 📂 Location
 
+`section-1-linux-fundamentals/`
 
 ---
 
@@ -56,14 +57,53 @@ This section covers advanced Linux system administration topics.
 
 📂 Location
 
+`section-2-system-administration/`
 
+---
+
+# Section 3: Networking, Services & System Update
+
+This section covers Linux networking fundamentals, network configuration, remote administration, and security.
+
+## Topics Covered
+
+### Networking Basics
+
+- Client-Server Relationship
+- Enable Internet on Linux VM
+- Network Components
+- Network Files and Commands
+  - `ping`
+  - `ifup`
+  - `ifdown`
+  - `netstat`
+  - `tcpdump`
+- NIC Information (`ethtool`)
+- NIC / Port Bonding
+- New Network Utilities
+  - `nmtui`
+  - `nmcli`
+  - `nm-connection-editor`
+  - GNOME Settings
+- The `ss` Command
+
+### Remote Administration
+
+- SSH and Telnet
+- Configure and Secure SSH
+- SSH Key Authentication
+- Access Remote Server Without Password
+
+📂 Location
+
+`section-3-networking-services-system-update/`
 
 ---
 
 # Learning Progress
 
 | Day | Topic | Status |
-|----|------|------|
+|------|--------|--------|
 | Day 1 | Text Processing Commands | ✅ Completed |
 | Day 2 | File Utilities & Compression | ✅ Completed |
 | Day 3 | Linux Basics & Command Differences | ✅ Completed |
@@ -72,7 +112,7 @@ This section covers advanced Linux system administration topics.
 | Day 6 | File Editor, sed, User Management | ✅ Completed |
 | Day 7 | Process Management, Services, Scheduling | ✅ Completed |
 | Day 8 | System Configuration, Monitoring, tmux & Practice Lab | ✅ Completed |
-
+| Day 9 | Networking Basics, SSH, SSH Keys & NetworkManager Utilities | ✅ Completed |
 
 ---
 
@@ -82,6 +122,7 @@ This section covers advanced Linux system administration topics.
 - Bash
 - Git
 - GitHub
+- VirtualBox / VMware
 
 ---
 
@@ -89,6 +130,7 @@ This section covers advanced Linux system administration topics.
 
 - Build strong **Linux command-line skills**
 - Master **Linux system administration**
+- Learn **Linux networking and remote administration**
 - Prepare for **RHCSA certification**
 
 ---
@@ -102,4 +144,4 @@ https://github.com/piyushvinde10
 
 ---
 
-⭐ This repository tracks my **RHCSA learning journey (Section-wise)**.
+⭐ This repository tracks my **RHCSA learning journey (Section-wise and Day-wise)**.
