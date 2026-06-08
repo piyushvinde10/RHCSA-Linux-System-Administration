@@ -2,7 +2,7 @@
 
 ![Linux](https://img.shields.io/badge/Linux-RHCSA-blue)
 ![Status](https://img.shields.io/badge/Status-Learning-green)
-![Progress](https://img.shields.io/badge/RHCSA%20Progress-Day%209-orange)
+![Progress](https://img.shields.io/badge/RHCSA%20Progress-Day%2010-orange)
 
 This repository documents my **hands-on learning journey** while preparing for the **Red Hat Certified System Administrator (RHCSA)** certification.
 
@@ -63,21 +63,16 @@ This section covers advanced Linux system administration topics.
 
 # Section 3: Networking, Services & System Update
 
-This section covers Linux networking fundamentals, network configuration, remote administration, and security.
+This section covers Linux networking, remote access, file transfer, repositories, and package management.
 
 ## Topics Covered
 
-### Networking Basics
+### Networking
 
 - Client-Server Relationship
 - Enable Internet on Linux VM
 - Network Components
 - Network Files and Commands
-  - `ping`
-  - `ifup`
-  - `ifdown`
-  - `netstat`
-  - `tcpdump`
 - NIC Information (`ethtool`)
 - NIC / Port Bonding
 - New Network Utilities
@@ -86,13 +81,35 @@ This section covers Linux networking fundamentals, network configuration, remote
   - `nm-connection-editor`
   - GNOME Settings
 - The `ss` Command
+- `curl` and `ping`
 
-### Remote Administration
+### Remote Access
 
 - SSH and Telnet
 - Configure and Secure SSH
 - SSH Key Authentication
 - Access Remote Server Without Password
+
+### File Transfer
+
+- FTP (File Transfer Protocol)
+- SCP (Secure Copy Protocol)
+- rsync (Remote Synchronization)
+- Downloading Files using `wget`
+
+### Package Management & Updates
+
+- RPM Package Management
+- YUM Package Management
+- System Updates and Repositories
+- System Upgrade and Patch Management
+- Create Local Repository (YUM Server)
+- Advanced Package Management
+
+### Labs
+
+- Network Troubleshooting Toolkit
+- File Transfer and Synchronization Toolkit
 
 📂 Location
 
@@ -113,6 +130,7 @@ This section covers Linux networking fundamentals, network configuration, remote
 | Day 7 | Process Management, Services, Scheduling | ✅ Completed |
 | Day 8 | System Configuration, Monitoring, tmux & Practice Lab | ✅ Completed |
 | Day 9 | Networking Basics, SSH, SSH Keys & NetworkManager Utilities | ✅ Completed |
+| Day 10 | FTP, SCP, rsync, wget, RPM, YUM, Repositories & Patch Management | ✅ Completed |
 
 ---
 
@@ -131,6 +149,7 @@ This section covers Linux networking fundamentals, network configuration, remote
 - Build strong **Linux command-line skills**
 - Master **Linux system administration**
 - Learn **Linux networking and remote administration**
+- Master **Package Management and Repositories**
 - Prepare for **RHCSA certification**
 
 ---
