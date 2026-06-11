@@ -2,7 +2,7 @@
 
 ![Linux](https://img.shields.io/badge/Linux-RHCSA-blue)
 ![Status](https://img.shields.io/badge/Status-Learning-green)
-![Progress](https://img.shields.io/badge/RHCSA%20Progress-Day%2011-orange)
+![Progress](https://img.shields.io/badge/RHCSA%20Progress-Day%2012-orange)
 
 This repository documents my **hands-on learning journey** while preparing for the **Red Hat Certified System Administrator (RHCSA)** certification.
 
@@ -67,7 +67,7 @@ section-2-system-administration/
 
 # Section 3: Networking, Services & System Update
 
-This section covers networking, remote access, file transfer, web services, DNS, package management, and system updates.
+This section covers networking, remote access, file transfer, web services, DNS, package management, system updates, security, monitoring and performance tuning.
 
 ## Topics Covered
 
@@ -86,6 +86,7 @@ This section covers networking, remote access, file transfer, web services, DNS,
   - GNOME Settings
 - The `ss` Command
 - `curl` and `ping`
+- Tracing Network Traffic (`traceroute`)
 
 ### Remote Access
 
@@ -127,12 +128,26 @@ This section covers networking, remote access, file transfer, web services, DNS,
 - Reverse Proxy Configuration
 - Cockpit Web-Based Administration
 
+### Security, Monitoring & Performance
+
+- Proxy Server (Squid)
+- Centralized Logging (rsyslog)
+- Installing, Configuring and Managing Nagios
+- OpenLDAP Installation and Configuration
+- Firewall Management (`firewalld`)
+- Securing Linux Machine (OS Hardening)
+- Tune System Performance
+  - `tuned`
+  - `nice`
+  - `renice`
+
 ### Labs
 
 - Network Diagnostics and Configuration Console
 - File Transfer and Synchronization Toolkit
 - DNS Lab
 - Nginx Reverse Proxy Lab
+- Admin Console for Logs, Traffic and Processes
 
 📂 Location
 
@@ -157,6 +172,7 @@ section-3-networking-services-system-update/
 | Day 9 | Networking Basics, SSH, SSH Keys & NetworkManager Utilities | ✅ Completed |
 | Day 10 | FTP, SCP, rsync, wget, RPM, YUM, Repositories & Patch Management | ✅ Completed |
 | Day 11 | DNS, NTP, Chronyd, timedatectl, Postfix, Apache, Nginx & Cockpit | ✅ Completed |
+| Day 12 | Squid, Rsyslog, Nagios, OpenLDAP, Firewall, OS Hardening, Traceroute & Performance Tuning | ✅ Completed |
 
 ---
 
@@ -194,6 +210,7 @@ RHCSA-Linux-System-Administration/
     ├── file-transfer/
     ├── services/
     ├── system-update/
+    ├── system-utilities/
     └── labs/
 ```
 
@@ -216,6 +233,7 @@ RHCSA-Linux-System-Administration/
 - Learn Linux networking and services
 - Understand DNS and web technologies
 - Master package management and repositories
+- Learn Linux security, monitoring and performance tuning
 - Prepare for RHCSA certification
 
 ---
