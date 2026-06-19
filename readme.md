@@ -2,7 +2,7 @@
 
 ![Linux](https://img.shields.io/badge/Linux-RHCSA-blue)
 ![Status](https://img.shields.io/badge/Status-Learning-green)
-![Progress](https://img.shields.io/badge/RHCSA%20Progress-Day%2012-orange)
+![Progress](https://img.shields.io/badge/RHCSA%20Progress-Day%2013-orange)
 
 This repository documents my **hands-on learning journey** while preparing for the **Red Hat Certified System Administrator (RHCSA)** certification.
 
@@ -67,7 +67,7 @@ section-2-system-administration/
 
 # Section 3: Networking, Services & System Update
 
-This section covers networking, remote access, file transfer, web services, DNS, package management, system updates, security, monitoring and performance tuning.
+This section covers networking, remote access, file transfer, web services, DNS, package management, system updates, security, monitoring, automation and performance tuning.
 
 ## Topics Covered
 
@@ -87,6 +87,7 @@ This section covers networking, remote access, file transfer, web services, DNS,
 - The `ss` Command
 - `curl` and `ping`
 - Tracing Network Traffic (`traceroute`)
+- DHCP Server
 
 ### Remote Access
 
@@ -94,6 +95,7 @@ This section covers networking, remote access, file transfer, web services, DNS,
 - Configure and Secure SSH
 - SSH Key Authentication
 - Access Remote Server Without Password
+- OpenVPN
 
 ### File Transfer
 
@@ -123,12 +125,13 @@ This section covers networking, remote access, file transfer, web services, DNS,
 ### Mail & Web Services
 
 - Mail Transfer Agent (Postfix)
+- Sendmail
 - Apache HTTP Server
 - Nginx Web Server
 - Reverse Proxy Configuration
 - Cockpit Web-Based Administration
 
-### Security, Monitoring & Performance
+### Security, Monitoring, Automation & Performance
 
 - Proxy Server (Squid)
 - Centralized Logging (rsyslog)
@@ -136,18 +139,25 @@ This section covers networking, remote access, file transfer, web services, DNS,
 - OpenLDAP Installation and Configuration
 - Firewall Management (`firewalld`)
 - Securing Linux Machine (OS Hardening)
+- Run Containers using Podman
+- Installing, Configuring and Managing Docker
+- Installing, Configuring and Managing Ansible
+- Installing, Configuring and Managing OpenVPN
+- Installing and Configuring a Clustered Environment
+- Kickstart (Automate Linux Installation)
 - Tune System Performance
   - `tuned`
   - `nice`
   - `renice`
 
-### Labs
+### Labs & Exercises
 
 - Network Diagnostics and Configuration Console
 - File Transfer and Synchronization Toolkit
 - DNS Lab
 - Nginx Reverse Proxy Lab
 - Admin Console for Logs, Traffic and Processes
+- Networking, DNS, Apache, Sendmail and Chronyd Exercise
 
 📂 Location
 
@@ -173,6 +183,7 @@ section-3-networking-services-system-update/
 | Day 10 | FTP, SCP, rsync, wget, RPM, YUM, Repositories & Patch Management | ✅ Completed |
 | Day 11 | DNS, NTP, Chronyd, timedatectl, Postfix, Apache, Nginx & Cockpit | ✅ Completed |
 | Day 12 | Squid, Rsyslog, Nagios, OpenLDAP, Firewall, OS Hardening, Traceroute & Performance Tuning | ✅ Completed |
+| Day 13 | DHCP, Podman, Docker, Ansible, OpenVPN, Clustering, Kickstart & Enterprise Services | ✅ Completed |
 
 ---
 
@@ -182,27 +193,8 @@ section-3-networking-services-system-update/
 RHCSA-Linux-System-Administration/
 │
 ├── section-1-linux-fundamentals/
-│   ├── command-basics/
-│   ├── text-processing/
-│   ├── file-comparison/
-│   ├── file-compression/
-│   ├── file-management/
-│   ├── labs/
-│   └── exercises/
 │
 ├── section-2-system-administration/
-│   ├── file-editor/
-│   ├── user-management/
-│   ├── file-permissions/
-│   ├── process-management/
-│   ├── service-management/
-│   ├── system-monitoring/
-│   ├── system-maintenance/
-│   ├── system-configuration/
-│   ├── system-utilities/
-│   ├── text-processing/
-│   ├── labs/
-│   └── exercise/
 │
 └── section-3-networking-services-system-update/
     ├── networking/
@@ -211,6 +203,7 @@ RHCSA-Linux-System-Administration/
     ├── services/
     ├── system-update/
     ├── system-utilities/
+    ├── exercises/
     └── labs/
 ```
 
@@ -223,6 +216,9 @@ RHCSA-Linux-System-Administration/
 - Git
 - GitHub
 - VirtualBox / VMware
+- Podman
+- Docker
+- Ansible
 
 ---
 
@@ -234,6 +230,8 @@ RHCSA-Linux-System-Administration/
 - Understand DNS and web technologies
 - Master package management and repositories
 - Learn Linux security, monitoring and performance tuning
+- Learn automation using Ansible and Kickstart
+- Understand containerization with Podman and Docker
 - Prepare for RHCSA certification
 
 ---
